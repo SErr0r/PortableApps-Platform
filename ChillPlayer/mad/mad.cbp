@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mad" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release Win32">
+				<Option output=".\Release\libmad" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-DFPM_DEFAULT" />
+					<Add option="-DASO_ZEROCHECK" />
+					<Add option="-DHAVE_CONFIG_H" />
+					<Add option="-W" />
+					<Add option="-O2" />
+					<Add directory="data" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="data" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Debug Win32">
+				<Option output=".\Debug\libmad" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-DFPM_DEFAULT" />
+					<Add option="-DASO_ZEROCHECK" />
+					<Add option="-DHAVE_CONFIG_H" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="data" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="data" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release x64">
+				<Option output=".\Release\libmad" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32\Release x64" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-DFPM_DEFAULT" />
+					<Add option="-DASO_ZEROCHECK" />
+					<Add option="-DHAVE_CONFIG_H" />
+					<Add option="-W" />
+					<Add option="-O2" />
+					<Add directory="data" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="data" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Debug x64">
+				<Option output=".\Debug\libmad" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32\Debug x64" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-DFPM_DEFAULT" />
+					<Add option="-DASO_ZEROCHECK" />
+					<Add option="-DHAVE_CONFIG_H" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add directory="data" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="data" />
+				</ResourceCompiler>
+			</Target>
+		</Build>
+		<Unit filename="bit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="decoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fixed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="frame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="huffman.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="layer12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="layer3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="synth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bit.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="config.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="decoder.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="fixed.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="frame.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="global.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="huffman.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="layer12.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="layer3.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="mad.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="stream.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="synth.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="timer.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="version.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="data\D.dat">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="data\imdct_s.dat">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="data\qc_table.dat">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="data\rq_table.dat">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="data\sf_table.dat">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

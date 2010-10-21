@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="vorbis" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output=".\Debug\libvorbis" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="..\ogg" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\ogg" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output=".\Release\libvorbis" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-W" />
+					<Add option="-O2" />
+					<Add directory="..\ogg" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\ogg" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Debug x64">
+				<Option output=".\Debug\libvorbis" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32\Debug x64" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add directory="..\ogg" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\ogg" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release x64">
+				<Option output=".\Release\libvorbis" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Win32\Release x64" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-W" />
+					<Add option="-O2" />
+					<Add directory="..\ogg" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\ogg" />
+				</ResourceCompiler>
+			</Target>
+		</Build>
+		<Unit filename="analysis.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bitrate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="block.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="codebook.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="envelope.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="floor0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="floor1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lookup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lpc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lsp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mapping0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mdct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="psy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="registry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="res0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sharedbook.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="smallft.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="synthesis.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vorbisfile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="backends.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="bitrate.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="codebook.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="codec_internal.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="envelope.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="highlevel.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lookup.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lookup_data.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lpc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lsp.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="masking.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="mdct.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="misc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="os.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="psy.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="registry.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="scales.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="smallft.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="window.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="vorbis\codec.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="vorbis\vorbisfile.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

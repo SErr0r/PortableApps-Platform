@@ -1,0 +1,93 @@
+          :iJ4MCsr,         
+       ,rv;:.....;r7r.      
+     L637;;::,:,:,:;jhpi    
+   ;80viri;;;rrr;iririjD6.  
+  vQSjsjvrjLr;ri7vjjLjLjOQ: 
+ .QOf1wJv;hww4LirjLww5fC5@@ 
+ CBh4UXfL;U  .LUasL7wf43XZB;
+r6DZXMhhsih.    .j1XwJfh4p8C
+X0@p0M0h3vZ.        rC1UZ6@U
+;8Q8GGpZ3LS. .     ,rC4Z08Q3
+ 3BDDODZhLZ    .rshS0M66DQB;
+  QB@Q88hC4..iJSZOO@@@DQQB@ 
+  ;@BQBDDZMUOGDDB@B@BQBQBQ. 
+   .QBQBD@O@D@@B@B@Q@B@B0   
+     ;BQBQ@6O06Z6pD@B@O,    
+        ,7f4Ua4h34sv.     
+
+===============
+
+Credits:
+Zach Thibeau <zachary.thibeau@gmail.com>
+ - New Project leader for Fork
+
+- CoolPlayer - 
+==============
+
+Credits:
+Zach Thibeau <zachary.thibeau@gmail.com>
+ - New Project leader for Fork
+
+Niek Albers <nieka@daansystems.com>
+
+ - Projectmanager
+ - Original programming
+ - DirectSound Plugout
+
+Marcus Platts <plattsm@dreamrender.com>
+
+ - Projectmanager
+ - Player engine rewrite
+ - Input/Output module engine
+ - Cooler Wave Mapper
+
+Rob Leslie <rob@mars.org>
+ 
+ - MAD MPEG audio decoder
+
+Joel Klinghed <the_jk@yahoo.com>
+
+ - Ogg Vorbis input module
+
+Dmitry Vassiliev <slydiman@mailru.com>
+ 
+ - 8 band equalizer
+
+Andrew Paterson <ajpaterson@ecologyfund.net>
+
+ - Changes for build 216
+
+Erukian & Infinil
+
+ - Website design
+
+Rutger-Jan Hoogerdijk <rutger@cistron.nl>  
+ 
+ - Default skin design
+
+Eric "Rix" Allard
+ 
+ - Some changes
+
+Richard Hopkins	<tinyapps.co.uk>
+
+- Some changes
+
+___________________________________________________
+
+Thanks to all who helped!
+___________________________________________________
+
+Visit CoolPlayer's website at:
+http://www.daansystems.com
+___________________________________________________
+
+Legal stuff:
+
+CoolPlayer is released under the 
+GNU General Public License (GPL).
+___________________________________________________
+
+©2000-2004 DaanSystems
+Comments/bugs: nieka@daansystems.com
+___________________________________________________

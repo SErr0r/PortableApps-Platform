@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="coolplayer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release Win32">
+				<Option output=".\Release\bin\ChillPlayer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-W" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add directory="..\mad" />
+					<Add directory="..\ogg" />
+					<Add directory="..\vorbis" />
+					<Add directory="..\zlib" />
+					<Add directory="..\" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\mad" />
+					<Add directory="..\ogg" />
+					<Add directory="..\vorbis" />
+					<Add directory="..\zlib" />
+					<Add directory="..\" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="dsound" />
+					<Add library="wininet" />
+					<Add library="comctl32" />
+					<Add library="../zlib/Release/libzlib.a" />
+					<Add library="../vorbis/Release/libvorbis.a" />
+					<Add library="../mad/Release/libmad.a" />
+					<Add library="../ogg/Release/libogg.a" />
+					<Add library="winmm" />
+				</Linker>
+			</Target>
+			<Target title="Debug Win32">
+				<Option output=".\Debug\coolplayer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="..\mad" />
+					<Add directory="..\ogg" />
+					<Add directory="..\vorbis" />
+					<Add directory="..\zlib" />
+					<Add directory="..\" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\mad" />
+					<Add directory="..\ogg" />
+					<Add directory="..\vorbis" />
+					<Add directory="..\zlib" />
+					<Add directory="..\" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="dsound" />
+					<Add library="wininet" />
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option output=".\Release\coolplayer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Release x64" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-W" />
+					<Add option="-O2" />
+					<Add directory="..\mad" />
+					<Add directory="..\ogg" />
+					<Add directory="..\vorbis" />
+					<Add directory="..\zlib" />
+					<Add directory="..\" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\mad" />
+					<Add directory="..\ogg" />
+					<Add directory="..\vorbis" />
+					<Add directory="..\zlib" />
+					<Add directory="..\" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="dsound" />
+					<Add library="wininet" />
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+			<Target title="Debug x64">
+				<Option output=".\Debug\coolplayer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Win32\Debug x64" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add directory="..\mad" />
+					<Add directory="..\ogg" />
+					<Add directory="..\vorbis" />
+					<Add directory="..\zlib" />
+					<Add directory="..\" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\mad" />
+					<Add directory="..\ogg" />
+					<Add directory="..\vorbis" />
+					<Add directory="..\zlib" />
+					<Add directory="..\" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="dsound" />
+					<Add library="wininet" />
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="CLV_ListView.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CLV_ListView.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_CircleBuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_CircleBuffer.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_Equaliser.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_Equaliser_Basic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_ID3.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_ID3_Genres.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Image.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_Indicators.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Indicators.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_Interface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Interface.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_InterfacePart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_InterfacePart.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_InterfacePart_CommandButton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_InterfacePart_Indicator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Keyboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Keyboard.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_Player.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Player.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_Player_Callbacks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Player_CoDec.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_Player_CoDec_MPEG.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Player_CoDec_OGG.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Player_CoDec_WAV.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Player_CoDec_WinAmpPlugin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Player_Engine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Player_Engine.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_Player_FileAssoc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Player_Messages.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_Player_Output.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_Player_Output_DirectSound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Player_Output_File.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Player_Output_Wave.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Playlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Playlist.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_PlaylistItem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_PlaylistItem.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_PlaylistItem_Internal.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_PlaylistWindow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_PlaylistWindow.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_Playlist_Callbacks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Stream.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPI_Stream_Internet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Stream_LocalFile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Verbs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPI_Verbs.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CPSK_Skin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CPSK_Skin.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CP_RIFFStructs.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CP_WinAmpStructs.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="CompositeFile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CompositeFile.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="DLG_Find.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DLG_Find.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="RotatingIcon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="RotatingIcon.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="String.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="String.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="WindowsOS.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="WindowsOS.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="_BldNum.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="about.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bitmap2region.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="coolplayer.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="debug.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="globals.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="options.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="profile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="res\Default.CPSkin">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\SysIcon.bmp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\SysIcon_Mask.bmp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\about.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\changes.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\coolplayer.exe.manifest" />
+		<Unit filename="res\coolplayer.ico">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\keyboard.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\main_bigfont.bmp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\main_down.bmp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\main_smallfont.bmp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\main_up.bmp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\mp3.ico">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\pls.ico">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\readme.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="res\usage.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="resource.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="shwapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="skin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="skin.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="stdafx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stdafx.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
